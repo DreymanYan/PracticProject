@@ -17,9 +17,8 @@
 - Веб-камера (опционально)
 
 ### Установка
-1. Клонируйте репозиторий:
-git clone https://github.com/dreymanyan/practicproject.git
-cd practicproject
+1. Добавьте удаленный репозиторий:
+git remote add origin https://github.com/dreymanyan/practicproject.git
 2. Создайте виртуальное окружение
 conda create -n py36 python=3.6 -y
 3. Установите зависимости:
