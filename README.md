@@ -29,6 +29,6 @@ pip install -r requirments.txt
 python main.py
 
 ## Требования
-- Библиотеки: см 'requirements.txt'
+- Библиотеки: см ['requirements.txt'](requirements.txt)
 
 ## Подробная инструкция: [docs/USAGE.md](docs/USAGE.md)
