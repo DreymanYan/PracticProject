@@ -17,12 +17,14 @@
 - Веб-камера (опционально)
 
 ### Установка
-1. Добавьте удаленный репозиторий:
+1. Инициализируйте локальный репозиторий в директории: 
+git init
+2. Добавьте удаленный репозиторий:
 git remote add origin https://github.com/dreymanyan/practicproject.git
-2. Создайте виртуальное окружение
-conda create -n py36 python=3.6 -y
-3. Установите зависимости:
-pip install -r requirments.txt
+3. Проверьте добавленный репозиторий:
+git remote -v
+4. Загрузите содержимое с удаленного репозитория с обновлением локального репозитория:
+git clone https://github.com/dreymanyan/practicproject.git
 
 ### Запуск
 python main.py
