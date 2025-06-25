@@ -27,3 +27,8 @@ pip install -r requirments.txt
 
 ### Запуск
 python main.py
+
+## Требования
+- Библиотеки: см 'requirements.txt'
+
+## Подробная инструкция: [docs/USAGE.md](docs/USAGE.md)
